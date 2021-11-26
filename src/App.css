@@ -1,7 +1,17 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
 }
-
+.b1 {
+  padding: 20px 30px;
+  background-color: #03266b;
+}
+.b1:hover {
+  background-color: rgb(226, 7, 7);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
